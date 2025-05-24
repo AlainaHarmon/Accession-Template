@@ -12,4 +12,4 @@
 
 ## Notes:
 
-If a Priority batch, add an emoji to the repo name, so that it stands out visually. Not sure if it's great to do that, so might change that.
+If a Priority batch, star the repo.
