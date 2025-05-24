@@ -2,7 +2,7 @@
 
 ## Description:
 
-## Main non-SWFSC contact:
+## Main Non-SWFSC Contact:
 
 ## Location
 
