@@ -1,0 +1,130 @@
+name: Accession Tracker
+description: Track sample batch from arrival to completion
+title: "[Task]: add task title "
+labels: ["task"]
+projects: ["Genetics Lab Management"]
+assignees: 
+  - kmartien
+body:
+  - type: markdown
+    attributes:
+      value: |
+       # Batch Data
+
+## Description:
+
+## Main Non-SWFSC Contact:
+
+## Location
+
+### Temporary Storage Location:
+
+### Description of Box or Bag:
+
+## Notes:
+
+If a Priority batch, star the repo.
+
+## Progress
+
+  - type: checkboxes
+    id: subtasks
+    attributes:
+      label: ✅ Subtasks
+      description: List of subtasks and their assignees (you can edit this list)
+      options:
+        - label: Package Received: Comment date received when complete. Add to database Shipment table. Add temporary storage location to text about this sample batch. (Can we display the Shipment table?)
+        - label: Cleared USFWS (link eDec and CITES package?)
+        - label: Data Received (link original data?)
+        - label: Inventoried (link inventory)
+        - label: Data Verified: Sample questions answered.  (link emails?)
+        - label: Permits Acquired (link collection permit?)
+        - label: Locations Assigned in Location Sheet (link sheet?)
+        - label: Accessioned: Data cleaned and imported into database. (To Archive linked?)
+        - label: T and Lab IDs Added to ID Tracker (link sheet?)
+        - label: Labels Printed (change supply numbers?)
+        - label: Labeled — _@alexandriamena 
+        - label:
+
+- [ ] 
+- [ ] 
+- [ ] 
+- [ ] 
+- [ ] 
+- [ ] 
+- [ ]
+- [ ] 
+- [ ] 
+- [ ] 
+- [ ] 
+- [ ] Subsampled or Transferred if Needed (Add refill?)
+- [ ] Records Scanned (link?)
+- [ ] Files Filed: All archival files in appropriate folder on network. All files linked in database. 
+- [ ] Turtles Only: To Archive Turtles file added to folder for Erin
+- [ ] Turtles Only: Update Flipper Tracker if relevant
+- [ ] MMGP or MTGP Accessioned Email Sent 
+- [ ] Sample Analysis Requests Assigned
+- [ ] Contributor Emailed List of IDs
+- [ ] Put Away in Long-Term Storage: If partially put away, comment what was put away and what date.
+
+
+  - type: input
+    id: labels
+    attributes:
+      label: 🗂 Suggested Labels
+      description: Suggest labels to categorize this issue
+      placeholder: e.g., frontend, backend, urgent
+
+  - type: input
+    id: start-date
+    attributes:
+      label: 🗓️ Start Date
+      description: When should this task begin?
+      placeholder: YYYY-MM-DD
+
+  - type: input
+    id: due-date
+    attributes:
+      label: 🗓️ Due Date
+      description: When should this task be completed?
+      placeholder: YYYY-MM-DD
+
+  - type: textarea
+    id: context
+    attributes:
+      label: 🧠 Context / Background
+      description: Add relevant background, links, or references
+      placeholder: Why is this task needed? Any related issues or documentation?
+
+  - type: textarea
+    id: progress
+    attributes:
+      label: 📊 Progress Tracker
+      description:
+
+# Batch Data
+
+## Description:
+
+## Main Non-SWFSC Contact:
+
+## Location
+
+### Temporary Storage Location:
+
+### Description of Box or Bag:
+
+## Notes:
+
+If a Priority batch, star the repo.
+
+## Progress
+
+-Labels: species?, country
+-Projects: link to any related planned lab projects?
+-Milestone: If any specific deadline
+-Assign any individuals completing specific tasks with a Comment and an @.
+-Create issue template for each type of analysis request (sex ID, species ID, etc.). Also link sample analysis sheet.
+
+Comment dates of completion.
+
