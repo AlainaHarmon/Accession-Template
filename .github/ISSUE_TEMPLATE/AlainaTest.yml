@@ -11,20 +11,14 @@ body:
       value: |
        ## Batch Data
        Please describe the sample batch. Include anticipated sample number
-
-## Main Non-SWFSC Contact:
-
+       ## Main Non-SWFSC Contact:
 ## Temporary Storage Location:
 Provide a link to the working files on the network and the CITES files on Google Shared Drives.
 Describe where the samples are located and what their storage container looks like.
-
 ## Notes:
-
 If a Priority batch, star the repo.
 Format the issue name as a descriptive title followed by a turtle or mammal emoji.
 Comment out dates of step completions.
-
-
 ## Progress
 
   - type: checkboxes
