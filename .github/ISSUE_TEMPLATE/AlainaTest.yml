@@ -4,26 +4,26 @@ title: "[Task]: add task title "
 labels: ["task"]
 projects: ["Genetics Lab Management"]
 assignees: 
-  - kmartien
+  - AlainaHarmon
 body:
   - type: markdown
     attributes:
       value: |
-       # Batch Data
-
-## Description:
+       ## Batch Data
+       Please describe the sample batch. Include anticipated sample number
 
 ## Main Non-SWFSC Contact:
 
-## Location
-
-### Temporary Storage Location:
-
-### Description of Box or Bag:
+## Temporary Storage Location:
+Provide a link to the working files on the network and the CITES files on Google Shared Drives.
+Describe where the samples are located and what their storage container looks like.
 
 ## Notes:
 
 If a Priority batch, star the repo.
+Format the issue name as a descriptive title followed by a turtle or mammal emoji.
+Comment out dates of step completions.
+
 
 ## Progress
 
@@ -33,98 +33,35 @@ If a Priority batch, star the repo.
       label: ✅ Subtasks
       description: List of subtasks and their assignees (you can edit this list)
       options:
-        - label: Package Received: Comment date received when complete. Add to database Shipment table. Add temporary storage location to text about this sample batch. (Can we display the Shipment table?)
-        - label: Cleared USFWS (link eDec and CITES package?)
-        - label: Data Received (link original data?)
-        - label: Inventoried (link inventory)
-        - label: Data Verified: Sample questions answered.  (link emails?)
-        - label: Permits Acquired (link collection permit?)
-        - label: Locations Assigned in Location Sheet (link sheet?)
-        - label: Accessioned: Data cleaned and imported into database. (To Archive linked?)
-        - label: T and Lab IDs Added to ID Tracker (link sheet?)
-        - label: Labels Printed (change supply numbers?)
-        - label: Labeled — _@alexandriamena 
-        - label:
-
-- [ ] 
-- [ ] 
-- [ ] 
-- [ ] 
-- [ ] 
-- [ ] 
-- [ ]
-- [ ] 
-- [ ] 
-- [ ] 
-- [ ] 
-- [ ] Subsampled or Transferred if Needed (Add refill?)
-- [ ] Records Scanned (link?)
-- [ ] Files Filed: All archival files in appropriate folder on network. All files linked in database. 
-- [ ] Turtles Only: To Archive Turtles file added to folder for Erin
-- [ ] Turtles Only: Update Flipper Tracker if relevant
-- [ ] MMGP or MTGP Accessioned Email Sent 
-- [ ] Sample Analysis Requests Assigned
-- [ ] Contributor Emailed List of IDs
-- [ ] Put Away in Long-Term Storage: If partially put away, comment what was put away and what date.
-
+        - label: Package Received: Comment date received when complete. Add to database Shipment table. Add temporary storage location to text about this sample batch. — _@AlainaHarmon_ 
+        - label: Data Received — _@AlainaHarmon_
+        - label: Inventoried — _@AlainaHarmon_
+        - label: Data Verified: Sample questions answered — _@AlainaHarmon_
+        - label: Permits Acquired — _@AlainaHarmon_
+        - label: Locations Assigned in Location Sheet — _@AlainaHarmon_
+        - label: Accessioned: Data cleaned and imported into database — _@AlainaHarmon_
+        - label: T and Lab IDs Added to ID Tracker — _@AlainaHarmon_
+        - label: Labels Printed — _@AlainaHarmon_
+        - label: Labeled — _@AlainaHarmon_
+        - label: Subsample — _@AlainaHarmon_
+        - label: Transferred Containers — _@AlainaHarmon_
+        - label: Refilled — _@AlainaHarmon_
+        - label: Records Scanned — _@AlainaHarmon_
+        - label: Files Filed: All archival files in appropriate folder on network. All files linked in database. — _@AlainaHarmon_
+        - label: Turtles Only: To Archive Turtles file added to folder for Erin — _@AlainaHarmon_
+        - label: Turtles Only: Update Flipper Tracker if relevant — _@AlainaHarmon_
+        - label: MMGP or MTGP Accessioned Email Sent — _@AlainaHarmon_ 
+        - label: Sample Analysis Requests Assigned — _@AlainaHarmon_
+        - label: Contributor Emailed List of IDs — _@AlainaHarmon_
+        - label: Put Away in Long-Term Storage: If partially put away, comment what was put away and what date. — _@AlainaHarmon_
 
   - type: input
     id: labels
     attributes:
       label: 🗂 Suggested Labels
-      description: Suggest labels to categorize this issue
-      placeholder: e.g., frontend, backend, urgent
+      description: Add MMGP or MTGP, Priority Batch if priority, Species, and Country of Origin
+      placeholder: e.g. MTGP, Priority Batch, Leatherbacks, Virgin Islands U.S.
 
-  - type: input
-    id: start-date
-    attributes:
-      label: 🗓️ Start Date
-      description: When should this task begin?
-      placeholder: YYYY-MM-DD
 
-  - type: input
-    id: due-date
-    attributes:
-      label: 🗓️ Due Date
-      description: When should this task be completed?
-      placeholder: YYYY-MM-DD
 
-  - type: textarea
-    id: context
-    attributes:
-      label: 🧠 Context / Background
-      description: Add relevant background, links, or references
-      placeholder: Why is this task needed? Any related issues or documentation?
-
-  - type: textarea
-    id: progress
-    attributes:
-      label: 📊 Progress Tracker
-      description:
-
-# Batch Data
-
-## Description:
-
-## Main Non-SWFSC Contact:
-
-## Location
-
-### Temporary Storage Location:
-
-### Description of Box or Bag:
-
-## Notes:
-
-If a Priority batch, star the repo.
-
-## Progress
-
--Labels: species?, country
--Projects: link to any related planned lab projects?
--Milestone: If any specific deadline
--Assign any individuals completing specific tasks with a Comment and an @.
--Create issue template for each type of analysis request (sex ID, species ID, etc.). Also link sample analysis sheet.
-
-Comment dates of completion.
 
