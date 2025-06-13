@@ -6,12 +6,12 @@ projects: ["Genetics Lab Management"]
 assignees: 
   - AlainaHarmon
 body:
-  -type:  markdown
+  -type: textarea
   id: title
     attributes:
-      value: |
-       ## Batch Data
-       Please describe the sample batch. Include anticipated sample number
+      label: Batch Description
+      description: Provide an overview of the samples, including anticipated sample number.
+      placehold: E.g. St. Croix nesting leatherbacks collected 2023-2025. 500 samples.
 
     - type: textarea
     id: contact
