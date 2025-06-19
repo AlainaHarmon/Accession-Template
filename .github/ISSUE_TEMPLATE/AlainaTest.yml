@@ -28,8 +28,7 @@ body:
       placeholder: E.g. White cryobox in F6 bottom 1/2, top shelf. Files at [paste network location].
 
 - type: markdown
-  value: | 
-    "## Batch Data
+  value: "## Batch Data
        1. If a priority batch, star the repo. 
        2. Format the issue name as a descriptive title followed by a turtle or mammal emoji
        3. Comment out dates of step completions."
