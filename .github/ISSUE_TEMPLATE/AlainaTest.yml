@@ -12,7 +12,9 @@ body:
          "## Batch Data
          1. If a priority batch, star the repo. 
          2. Format the issue name as a descriptive title followed by a turtle or mammal emoji
-         3. Comment out dates of step completions."
+         3. Comment out dates of step completions.
+         4. Replace labels with "MMGP" or "MTGP" and species and country of origin.
+         5. Delete projects or replace it with a project in the system."
          
 - type: textarea
   id: title
