@@ -8,8 +8,7 @@ assignees:
 body:
 - type: markdown
   attributes:
-       value: 
-         "## Batch Data" |
+       value: "## Batch Data" |
          1. If a priority batch, star the repo. 
          2. Format the issue name as a descriptive title followed by a turtle or mammal emoji
          3. Comment out dates of step completions.
