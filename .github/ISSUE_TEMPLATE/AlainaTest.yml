@@ -14,7 +14,8 @@ body:
          2. Format the issue name as a descriptive title followed by a turtle or mammal emoji
          3. Comment out dates of step completions.
          4. Replace labels with "MMGP" or "MTGP" and species and country of origin.
-         5. Delete projects or replace it with a project in the system."
+         5. Delete projects or replace it with a project in the system.
+         6. To assign a task in the checklist to someone type " — _@username_" after the task.
          
 - type: textarea
   id: title
@@ -44,9 +45,9 @@ body:
       description: List of subtasks and their assignees
       options:
         - label: Package Received. Comment date received when complete. Add to database Shipment table. Add temporary storage location to text about this sample batch. — _@AlainaHarmon_ 
-        - label: Data Received — _@AlainaHarmon_
-        - label: Inventoried — _@AlainaHarmon_
-        - label: Data Verified. Sample questions answered. — _@AlainaHarmon_
+        - label: Data Received 
+        - label: Inventoried 
+        - label: Data Verified. Sample questions answered.
         - label: Permits Acquired — _@AlainaHarmon_
         - label: Locations Assigned in Location Sheet — _@AlainaHarmon_
         - label: Accessioned. Data cleaned and imported into database. — _@AlainaHarmon_
