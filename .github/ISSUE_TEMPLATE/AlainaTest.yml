@@ -24,8 +24,7 @@ body:
   id: location
   attributes:
       label: Temporary Storage Location
-      description: Provide a link to the working files on the network and the CITES files on Google Shared Drives.
-      Describe where the samples are located and what their storage container looks like.
+      description: Provide a link to the working files on the network and the CITES files on Google Shared Drives. Describe where the samples are located and what their storage container looks like.
       placeholder: E.g. White cryobox in F6 bottom 1/2, top shelf. Files at [paste network location].
 
 - type: markdown
