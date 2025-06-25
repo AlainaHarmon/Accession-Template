@@ -44,27 +44,27 @@ body:
       label: ✅ Progress
       description: List of subtasks and their assignees
       options:
-        - label: Package Received. Comment date received when complete. Add to database Shipment table. Add temporary storage location to text about this sample batch. — _@AlainaHarmon_ 
+        - label: Package Received. Comment date received when complete. Add to database Shipment table. Add temporary storage location to text about this sample batch. 
         - label: Data Received 
         - label: Inventoried 
         - label: Data Verified. Sample questions answered.
-        - label: Permits Acquired — _@AlainaHarmon_
-        - label: Locations Assigned in Location Sheet — _@AlainaHarmon_
-        - label: Accessioned. Data cleaned and imported into database. — _@AlainaHarmon_
-        - label: T and Lab IDs Added to ID Tracker — _@AlainaHarmon_
-        - label: Labels Printed — _@AlainaHarmon_
-        - label: Labeled — _@AlainaHarmon_
-        - label: Subsample — _@AlainaHarmon_
-        - label: Transferred Containers — _@AlainaHarmon_
-        - label: Refilled — _@AlainaHarmon_
-        - label: Records Scanned — _@AlainaHarmon_
-        - label: Files Filed. All archival files in appropriate folder on network. All files linked in database. — _@AlainaHarmon_
-        - label: Turtles Only. To Archive Turtles file added to folder for Erin. — _@AlainaHarmon_
-        - label: Turtles Only. Update Flipper Tracker if relevant. — _@AlainaHarmon_
-        - label: MMGP or MTGP Accessioned Email Sent — _@AlainaHarmon_ 
-        - label: Sample Analysis Requests Assigned — _@AlainaHarmon_
-        - label: Contributor Emailed List of IDs — _@AlainaHarmon_
-        - label: Put Away in Long-Term Storage. If partially put away, comment what was put away and what date. — _@AlainaHarmon_
+        - label: Permits Acquired 
+        - label: Locations Assigned in Location Sheet
+        - label: Accessioned. Data cleaned and imported into database.
+        - label: T and Lab IDs Added to ID Tracker
+        - label: Labels Printed
+        - label: Labeled
+        - label: Subsampled
+        - label: Transferred Containers
+        - label: Refilled
+        - label: Records Scanned
+        - label: Files Filed. All archival files in appropriate folder on network. All files linked in database.
+        - label: Turtles Only. To Archive Turtles file added to folder for Erin.
+        - label: Turtles Only. Update Flipper Tracker if relevant.
+        - label: MMGP or MTGP Accessioned Email Sent 
+        - label: Sample Analysis Requests Assigned
+        - label: Contributor Emailed List of IDs
+        - label: Put Away in Long-Term Storage. If partially put away, comment what was put away and what date.
 
 - type: input
   id: labels
