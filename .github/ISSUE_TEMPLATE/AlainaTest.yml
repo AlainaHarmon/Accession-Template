@@ -1,7 +1,7 @@
 name: "Accession Tracker"
 description: Track sample batch from arrival to completion
 title: "[Task]: add task title "
-projects: ["Genetics Lab Management/2"]
+projects: ["Genetics Lab Management-SWFSC-MMTD-Genetics/2"]
 assignees: 
   - AlainaHarmon
 body:
