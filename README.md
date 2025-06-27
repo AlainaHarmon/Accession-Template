@@ -1,0 +1,5 @@
+- This section holds the template for tracking sample batches as they move through the accessioning process after arrival at SWFSC. 
+- To create a new sample batch tracking issue, go to Issues in the top menu bar, select "New Issue" (green button), and then choose Accession Tracker.
+- Existing sample batches can be viewed under Issues in the top menu bar.
+- Original data for new sample batches can be deposited on the MMTD Google Shared Drive [here](https://drive.google.com/drive/folders/1BSkxyCJOppK7w4KQnm5WQHeKvL9pfzGz?usp=drive_link).
+- Unless otherwise specified, all tasks are assigned to the SWFSC MMaSTR collection manager. 
