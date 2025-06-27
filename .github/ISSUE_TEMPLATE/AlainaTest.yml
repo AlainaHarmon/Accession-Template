@@ -40,7 +40,8 @@ body:
       label: ✅ Progress
       description: List of subtasks and their assignees
       options:
-        - label: Package Received. Comment date received when complete. Add to database Shipment table. Add temporary storage location to text about this sample batch. 
+        - label: Package Received. Comment date received when complete. Add temporary storage location to text about this sample batch.
+        - label: Add to database Shipment table.  
         - label: Data Received 
         - label: Inventoried 
         - label: Data Verified. Sample questions answered.
