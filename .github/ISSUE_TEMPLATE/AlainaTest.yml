@@ -64,17 +64,17 @@ body:
         - label: Contributor Emailed List of IDs
         - label: Put Away in Long-Term Storage. If partially put away, comment what was put away and what date.
 
--type: dropdown
-id: program
-attributes:
-    label: Program Tag
-    description: Assign label MMGP or MTGP.
-    multiple: false
-    options:
-      - 'MMGP'
-      - 'MTGP'
-    validations: 
-      required: true
+- type: dropdown
+  id: program
+  attributes:
+      label: Program Tag
+      description: Assign label MMGP or MTGP.
+      multiple: false
+      options:
+        - 'MMGP'
+        - 'MTGP'
+      validations: 
+        required: true
     
 - type: input
   id: labels
