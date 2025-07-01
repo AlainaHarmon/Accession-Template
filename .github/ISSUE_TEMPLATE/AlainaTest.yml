@@ -76,13 +76,3 @@ body:
   validations: 
       required: true
     
-- type: input
-  id: labels
-  attributes:
-      label: 🗂 Suggested Labels
-      description: Add MMGP or MTGP, Priority Batch if priority, Species, and Country of Origin
-      placeholder: e.g. MTGP, Priority Batch, Leatherbacks, Virgin Islands U.S.
-
-
-
-
