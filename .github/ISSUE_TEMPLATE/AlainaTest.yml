@@ -67,8 +67,8 @@ body:
 - type: dropdown
   id: program
   attributes:
-      label: Program Tag
-      description: Choose MMGP or MMTD. Please remember to assign this as a label as well.
+      label: Program Label
+      description: Choose MMGP or MMTD. This will automatically assign your selection as a label.
       multiple: false
       options:
         - 'MMGP'
