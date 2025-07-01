@@ -68,7 +68,7 @@ body:
   id: program
   attributes:
       label: Program Label
-      description: Choose MMGP or MMTD. This will automatically assign your selection as a label.
+      description: Choose MMGP or MTGP. This will automatically assign your selection as a label.
       multiple: false
       options:
         - 'MMGP'
