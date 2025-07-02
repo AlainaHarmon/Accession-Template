@@ -1,3 +1,5 @@
+# This code acts on AlainaTest.yml, taking the dropdown at the end of the form, and assigning 
+# a Label to the issue based on the selection in the dropdown.
 name: Issue labeler
 on:
   issues:
@@ -26,12 +28,14 @@ jobs:
         id: issue-parser
         with:
           template-path: .github/ISSUE_TEMPLATE/AlainaTest.yml
+          # change template-path to the name of your .yml file containing the dropdown
 
       - name: Set labels based on dropdown
         uses: redhat-plumbers-in-action/advanced-issue-labeler@v2
         with:
           issue-form: ${{ steps.issue-parser.outputs.jsonString }}
           section: program
+          # change section to the id attribute you use for your dropdown
           block-list: |
             None
             Other
