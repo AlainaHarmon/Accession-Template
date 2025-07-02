@@ -11,9 +11,20 @@ body:
          "## Batch Data
          1. If a priority batch, star the repo before the title text. You can pull up emojis by right clicking in the title text box.
          2. Format the issue name as a descriptive title followed by a turtle or mammal emoji.
-         3. Comment out dates of step completions.
-         4. Add labels "MMGP" or "MTGP" and species and country of origin.
-  
+         3. Add comments with dates of step completions.
+
+- type: dropdown
+  id: program
+  attributes:
+      label: Program Label
+      description: Choose MMGP or MTGP. This will automatically assign your selection as a label.
+      multiple: false
+      options:
+        - 'MMGP'
+        - 'MTGP'
+  validations: 
+      required: true
+
 - type: textarea
   id: title
   attributes:
@@ -64,15 +75,5 @@ body:
         - label: Contributor Emailed List of IDs
         - label: Put Away in Long-Term Storage. If partially put away, comment what was put away and what date.
 
-- type: dropdown
-  id: program
-  attributes:
-      label: Program Label
-      description: Choose MMGP or MTGP. This will automatically assign your selection as a label.
-      multiple: false
-      options:
-        - 'MMGP'
-        - 'MTGP'
-  validations: 
-      required: true
+
     
