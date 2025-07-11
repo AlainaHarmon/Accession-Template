@@ -12,6 +12,8 @@ body:
          1. If a priority batch, star the repo before the title text. You can pull up emojis by right clicking in the title text box.
          2. Format the issue name as a descriptive title followed by a turtle or mammal emoji.
          3. Add comments with dates of step completions.
+         4. Add start date when work begins on the sample batch. Manually add projected end date.
+         5. If the sample batch is not in the building yet, please add "- Not Yet at SWFSC" at the end of the title and in the sample location textbox.
 
 - type: dropdown
   id: program
