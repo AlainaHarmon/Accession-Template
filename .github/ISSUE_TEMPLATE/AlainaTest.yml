@@ -9,7 +9,7 @@ body:
   attributes:
        value: | 
          "## Batch Data
-         1. If a priority batch, star the repo before the title text. You can pull up emojis by right clicking in the title text box.
+         1. If a priority batch, star the repo before the title text. You can pull up emojis by right clicking in the title text box, or copy/paste from the following. ⭐🐢🐳
          2. Format the issue name as a descriptive title followed by a turtle or mammal emoji.
          3. Add comments with dates of step completions.
          4. Add start date when work begins on the sample batch. Manually add projected end date.
