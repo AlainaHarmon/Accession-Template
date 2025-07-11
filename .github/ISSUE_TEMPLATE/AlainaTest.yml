@@ -9,11 +9,12 @@ body:
   attributes:
        value: | 
          "## Batch Data
-         1. If a priority batch, star the repo before the title text. You can pull up emojis by right clicking in the title text box, or copy/paste from the following. ⭐🐢🐳
-         2. Format the issue name as a descriptive title followed by a turtle or mammal emoji.
+         1. If a priority batch, star the repo before the title text. You can pull up emojis by right clicking in the title text box, or copy/paste from the following. ⭐
+         2. Format the issue name as a descriptive title followed by a turtle or mammal emoji. 🐢🐳
          3. Add comments with dates of step completions.
          4. Add start date when work begins on the sample batch. Manually add projected end date.
          5. If the sample batch is not in the building yet, please add "- Not Yet at SWFSC" at the end of the title and in the sample location textbox.
+         6. If you receive data for a batch, you can place it [here](https://drive.google.com/drive/folders/1BSkxyCJOppK7w4KQnm5WQHeKvL9pfzGz?usp=drive_link) to deliver it to the collection manager.
 
 - type: dropdown
   id: program
